@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Ashish Jadhav | Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="left">
+        <a href="#">Ashish.dev</a>
+      </div>
+
+      <div class="right">
+        <a
+          href="https://github.com/AshishJadhav"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a
+          href="https://linkedin.com/in/ashishjadhav"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+
+        <a href="mailto:jadhavashishaj09@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- SECTION 1: Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, I'm Ashish 👋</h2>
+          <p>
+            A passionate <strong>Full Stack Developer</strong> with experience
+            building modern, responsive, and user-friendly web applications. I
+            enjoy working with technologies like
+            <strong>React.js, Node.js, and MongoDB</strong> to create scalable
+            solutions. My goal is to solve real-world problems with clean and
+            efficient code.
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#projects">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Projects</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+            <a href="./doc/Ashish_Resume.pdf" download class="resume-btn">
+              <i class="fa-solid fa-download"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <!-- <img src="images/profile.webp" alt="Ashish Jadhav Profile Picture" /> -->
+           <img src="images/aj.png" alt="Ashish Jadhav Profile Picture" />
+        </div>
+      </section>
+
+      <!-- SECTION 2: About Me -->
+      <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+          I’m Ashish Jadhav, a Computer Science graduate and a passionate
+          <strong>Full Stack Developer</strong>. I enjoy turning complex
+          problems into simple, beautiful, and intuitive solutions. Currently,
+          I’m looking for opportunities where I can contribute to real-world
+          projects and grow as a developer.
+        </p>
+      </section>
+
+      <!-- SECTION 3: Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          Here are some of the technologies and tools I work with:
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="html" /><span>HTML</span>
+          </div>
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="css" /><span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="js" /><span
+              >JavaScript</span
+            >
+          </div>
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="react" /><span
+              >React.js</span
+            >
+          </div>
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="node" /><span>Node.js</span>
+          </div>
+          <div class="cell">
+            <img src="images/mongo-logo.webp" alt="mongodb" /><span
+              >MongoDB</span
+            >
+          </div>
+          <div class="cell">
+            <img src="images/git-github.webp" alt="git/github" /><span
+              >Git/Github</span
+            >
+          </div>
+          <div class="cell">
+            <img src="images/Tailwind_CSS_Logo.svg.png" alt="mongodb" /><span
+              >Tailwind</span
+            >
+          </div>
+          
+
+        </div>
+      </section>
+
+      <!-- SECTION 4: Projects -->
+      <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img
+              src="images/flight-dashboard.webp"
+              alt="Flight Management Dashboard"
+            />
+            <h3>Flight Management Dashboard</h3>
+            <p>
+              An admin dashboard built with
+              <strong>React.js & IndexedDB</strong> that allows CRUD operations
+              on flights, booking filters, and real-time updates.
+            </p>
+            <div class="links">
+              <a
+                href="https://github.com/AshishJadhav/flight-dashboard"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+              <a href="#" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i> Live</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="images/chat-app.webp" alt="Chat App" />
+            <h3>Local Chat Application</h3>
+            <p>
+              A Java + Spring Boot based desktop chat app where users on the
+              same WiFi can send and receive real-time messages.
+            </p>
+            <div class="links">
+              <a href="https://github.com/AshishJadhav/chat-app" target="_blank"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="images/portfolio.webp" alt="Dashboard Website" />
+            <h3>Dashboard</h3>
+            <p>
+              This Dashboard website, designed with
+              <strong>HTML, CSS, JavaScript and React</strong>, showcases my skills,
+              projects, and contact details in a clean responsive design.
+            </p>
+            <div class="links">
+              <a
+                href="https://github.com/Ash2609/AccuKnox-React-Task"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+              <a href="https://ash2609.github.io/AccuKnox-React-Task/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: Education & Experience -->
+      <section id="experience" class="experience-section">
+        <h2>Education & Experience</h2>
+        <ul>
+          <li>
+            <strong>B.Tech in Computer Science & Engineering</strong>, 2021 –
+            CGPA: 7.86
+          </li>
+          <li>
+            <strong>Web Developer Intern</strong>, AFI (Aug 2021 – Jun 2022)
+          </li>
+          <li>
+            Currently pursuing a Full Stack Development online course (React,
+            Node.js, MongoDB, Express)
+          </li>
+        </ul>
+      </section>
+
+      <!-- SECTION 6: Testimonials -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimonials</h2>
+        <div class="group">
+          <div class="person-details">
+            <img src="images/testimony.webp" alt="Colleague picture" />
+            <p>Ashish</p>
+            <p>Software Engineer</p>
+          </div>
+          <div class="text">
+            "Ashish is a dedicated developer with great attention to detail. He
+            consistently delivers high-quality work and is quick to adapt to new
+            challenges. His problem-solving skills and teamwork make him a
+            valuable asset in any project."
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            Let’s collaborate! Feel free to reach out if you’d like to work
+            together, discuss opportunities, or just say hello. I’ll get back to
+            you as soon as possible.
+          </div>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email" />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Write your message..."
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 Ashish Jadhav. Built with ❤️ using HTML, CSS & JavaScript.</p>
+    </footer>
+  </body>
+</html>
